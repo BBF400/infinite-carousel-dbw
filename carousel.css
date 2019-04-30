@@ -1,10 +1,13 @@
 /* Slider */
 .slick-slide {
     margin: 0px 20px;
+    height: 200px;
 }
 
 .slick-slide img {
-    width: 100%;
+    max-height: 150px;
+    max-width: 200px;
+    margin: 10px;
 }
 
 .slick-slider
@@ -26,7 +29,6 @@
 .slick-list
 {
     position: relative;
-    display: block;
     overflow: hidden;
     margin: 0;
     padding: 0;

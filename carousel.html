@@ -18,8 +18,8 @@
     }
 	
 	.row {
-		background-color: #ececec;
-		background-color: rgba(233,230,230,0.79);
+		background-color: #000000;
+		background-color: rgb(0, 0, 0);
 		padding: 2% 0;
 	}
 </style>
@@ -42,6 +42,9 @@
 				<div class="slide"><img src="images/image6.png"></div>
 				<div class="slide"><img src="images/image7.png"></div>
 				<div class="slide"><img src="images/image8.png"></div>
+				<div class="slide"><img src="images/image9.png"></div>
+				<div class="slide"><img src="images/image10.png"></div>
+				<div class="slide"><img src="images/image11.png"></div>
 			</section>
 		</div>
 	</div>
@@ -49,7 +52,7 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.customer-logos').slick({
-				slidesToShow: 6,
+				slidesToShow: 5,
 				slidesToScroll: 1,
 				autoplay: true,
 				autoplaySpeed: 1000,
@@ -59,12 +62,12 @@
 					responsive: [{
 					breakpoint: 768,
 					settings: {
-						slidesToShow: 4
+						slidesToShow: 3
 					}
 				}, {
 					breakpoint: 520,
 					settings: {
-						slidesToShow: 3
+						slidesToShow: 2
 					}
 				}]
 			});
