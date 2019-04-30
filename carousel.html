@@ -18,8 +18,8 @@
     }
 	
 	.row {
-		background-color: #ececec;
-		background-color: rgba(233,230,230,0.79);
+		background-color: #000000;
+		background-color: rgb(0, 0, 0);
 		padding: 2% 0;
 	}
 </style>
@@ -36,12 +36,6 @@
 			<section class="customer-logos slider">
 				<div class="slide"><img src="images/image1.png"></div>
 				<div class="slide"><img src="images/image2.png"></div>
-				<div class="slide"><img src="images/image3.png"></div>
-				<div class="slide"><img src="images/image4.png"></div>
-				<div class="slide"><img src="images/image5.png"></div>
-				<div class="slide"><img src="images/image6.png"></div>
-				<div class="slide"><img src="images/image7.png"></div>
-				<div class="slide"><img src="images/image8.png"></div>
 			</section>
 		</div>
 	</div>
@@ -49,9 +43,9 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.customer-logos').slick({
-				slidesToShow: 6,
+				slidesToShow: 2,
 				slidesToScroll: 1,
-				autoplay: true,
+				autoplay: false,
 				autoplaySpeed: 1000,
 				arrows: false,
 				dots: false,
@@ -59,7 +53,7 @@
 					responsive: [{
 					breakpoint: 768,
 					settings: {
-						slidesToShow: 4
+						slidesToShow: 2
 					}
 				}, {
 					breakpoint: 520,
