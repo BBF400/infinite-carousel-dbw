@@ -1,3 +1,10 @@
+/*Title*/
+.title {
+    margin: 0px 50px;
+    text-emphasis-color: azure;
+    -webkit-text-fill-color: azure;
+}
+
 /* Slider */
 .slick-slide {
     margin: 0px 20px;
